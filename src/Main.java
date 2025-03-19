@@ -7,20 +7,22 @@ public class Main {
         }
         System.out.println("\n");
 
-        // Задача 2: Вывести числа от 10 до 1
-        for (int i = 10; i >= 1; i--) {
+        // Задача 2: Вывести числа от 10 до 1 (Используем while вместо for)
+        int i = 10;
+        while (i >= 1) {
             System.out.print(i + " ");
+            i--;
         }
         System.out.println("\n");
 
         // Задача 3: Вывести четные числа от 0 до 17
-        for (int i = 0; i <= 17; i += 2) {
+        for (int k = 0; k <= 17; k += 2) {
             System.out.print(i + " ");
         }
         System.out.println("\n");
 
         // Задача 4: Вывести числа от 10 до -10
-        for (int i = 10; i >= -10; i--) {
+        for (int m = 10; m >= -10; m--) {
             System.out.print(i + " ");
         }
         System.out.println("\n");
@@ -32,13 +34,13 @@ public class Main {
         System.out.println();
 
         // Задача 6: Вывести последовательность кратных 7 чисел
-        for (int i = 7; i <= 98; i += 7) {
+        for (int n = 7; n <= 98; n += 7) {
             System.out.print(i + " ");
         }
         System.out.println("\n");
 
         // Задача 7: Вывести степенную последовательность на 2
-        for (int i = 1; i <= 512; i *= 2) {
+        for (int p = 1; p <= 512; p *= 2) {
             System.out.print(i + " ");
         }
         System.out.println("\n");
@@ -61,7 +63,7 @@ public class Main {
         System.out.println();
 
         // Задача 10: Таблица умножения на 2
-        for (int i = 1; i <= 10; i++) {
+        for (int x = 1; x <= 10; x++) {
             System.out.println("2 * " + i + " = " + (2 * i));
         }
 
@@ -78,15 +80,15 @@ public class Main {
         }
 
         // Задача 2: Вывод чисел с помощью циклов
-        int i = 1;
-        while (i <= 10) {
-            System.out.print(i + " ");
-            i++;
+        int j = 1;
+        while (j <= 10) {
+            System.out.print(j + " ");
+            j++;
         }
         System.out.println();
 
-        for (int j = 10; j >= 1; j--) {
-            System.out.print(j + " ");
+        for (int y = 10; y >= 1; y--) {
+            System.out.print(y + " ");
         }
         System.out.println();
 
